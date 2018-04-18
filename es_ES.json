@@ -1,0 +1,120 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "r1",
+    "lang_name":        "Spanish",
+    "lang_short":       "es_ES",
+
+    "shared": {
+
+        "errorGeneric":         "Algo salio mal.",
+        "errorNoPermission":    "No tienes permisos para hacer eso.",
+        "errorConfigNotFound":  "Algo salio mal mientras se buscaba la configuración de este servidor.",
+        "errorCoolDown":        "Por favor espera $1 segundos andes de volver a intentar.",
+        "errorNotNSFW":         "Tienes que estar en una sala NSFW.",
+
+		"configFlushed":		"Cache for server $1 flushed.",
+        "errorShutdownGrace":	"Lo siento, no puedes realizar está acción por ahora. Intenta de nuevo en un par de minutos.",
+         
+        "errorTooManyMatched":  "Se han encontrado demasiadas coincidencias, Maximo: `$1`",
+        "errorTooLittleMatched":"Se han encontrado pocas coincidencias, Minimo: `$1`",
+        "matchResponseBig":     "`$1` coincidencias. Ver todas -> $2",
+
+        "missingPermission":    "El permiso `$1` es requerido para hacer eso."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Fetching Data...",
+        "dataCreating":         ":black_circle: Creando sala...",
+        "roomCreated":          ":large_blue_circle: Sala creada!",
+        "roomAlreadyExists":    ":warning: Ya tienes una sala creada!",
+        "roomRevoked":          ":large_blue_circle: Sala eliminada!",
+        "roomRevokedInactive":  "Tu canal ha sido borrado por inactividad, Puedes volver a crearlo con `$1`",
+        "roomName":             "Sala privada [$1]",
+        "roomErrorDisabled":    "Las salas privadas estan deshabilitadas en este servidor.",
+        "roomErrorLimit":       "Lo siento, no puedes crear una sala privada ahora mismo.",
+        "roomErrorNotAllowed":  "No estás permitido a crear una sala.",
+
+        "roomRenamed":          "Sala renombrada a: `$1`",
+        "roomRenameDisabled":   "No puedes renombrar salas en este servidor.",
+        "roomNoNameSpecified":  "Necesitas especificar un nombre!",
+
+        "revokeComplete":       ":cyclone: Canal eliminado!",
+        "revokeError":          ":no_good: Algo salio mal cuando se borraba tu sala.",
+        "revokeNotGuild":        "Solo puedes eliminar tu sala en un servidor.",
+        "revokeNoRoom":         ":warning: No tienes sala!",
+
+        "roomUserAdded":        "Has añadido a $1 a tu sala.",
+        "roomUserRemoved":      "Eliminaste a $1 de tu sala.",
+        "roomUserBlocked":      "Bloqueaste a $1 de tu sala.",
+        "roomNoAdded":			"No se han hecho cambios.",
+        "roomMadePublic":       "Ahora cualquiera puede entrar a tu sala.",
+        "roomNotPublic":        "Ahora solo miembros añadidos pueden entrar en tu sala.",
+
+        "userWhitelistAdd":     "$1 esta ahora en tu lista blanca.",
+        "userWhitelistRevoke":  "$1 ya no esta en tu lista blanca.",
+        "userWhitelistReset":   "Tu lista blanca ha sido reiniciada.",
+        "userBlacklistAdd":     "$1 esta ahora en tu lista negra.",
+        "userBlacklistRevoke":  "$1 ya no esta en tu lista negra.",
+        "userBlacklistReset":   "Tu lista negra ha sido reiniciada.",
+
+        "errorRoomsDisabled":   "Las salas privadas estan deshabilitadas en este servidor.",
+        "errorNotGuild":        "Las salas solo pueden ser invocadas desde un servidor.",
+
+        "roomsNewOwner":        "Ahora eres el dueño de la sala privada de $1.",
+        "roomsNewOwnerNotify":  "Tu sala privada ha sido asignada a otro miembro."
+
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Trabajando en ello!",
+        "noImage":              "Proveenos una imagen, por favor!",
+        "defaultAvatar":        "Este usuario tiene el avatar por defecto!"
+
+    },
+
+    "genericCommands": {
+
+        "whoisTitle":           "Carta de usuario: $1",
+        "username":             "Usuario",
+        "nickname":             "Apodo",
+        "roles":                "Roles",
+        "accountCreated":       "Creado en",
+        "joinedServerDate":     "Ingreso en",
+        "status":               "Estado",
+
+        "serverName":           "Nombre",
+        "serverMembers":        "Miembros",
+        "serverOwner":          "Dueño",
+        "serverCreated":        "Creado en",
+        "serverRegion":         "Region"
+
+    },
+    
+    "music": {
+
+        "MusicNoURL":           ":warning: Necesitas proveer un URL valido!",
+        "MusicNovoiceCon":      ":warning: Necesitas estar en un Canal de Voz!",
+        "MusicNoPermission":    "No tienes permiso para hacer eso.",
+
+        "MusicDifferentChannel":"No puedes votar para saltar sin estar en el canal.",
+        "MusicVoteProgress":    "Has votado para saltar el video actual `$1`",
+        "MusicVoteAlreadyVoted":"Has votado para saltar el video actual `$1`",
+        "MusicVoteCompleted":   "La cancion actual ha sido salteada. `$1`",
+
+        "MusicAddedToQueue":    "`$1` añadido a la lista.",
+        "MusicNowPlaying":      "Ahora reproduciendo",
+        "MusicRequestedBy":     "Pedido por",
+        "MusicVideoLength":     "Duracion",
+
+        "errorGeneric":         "Algo salio mal.",
+        "errorConfigNotFound":  "Algo salio mal mientras se buscaba la configuracion de este servidor.",
+        "errorMusicDisabled":   "Las salas de musica estan deshabilitadas en este servidor.",
+        "errorNotGuild":        "La Musica solo puede ser reproducida en un servidor."
+
+    }
+
+}
